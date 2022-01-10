@@ -15,4 +15,7 @@ e.mul();
 	public void mul() {
 		System.out.println("multiplication");
 }
+	public void mull() {
+		System.out.println("multi");	
+}
 }
