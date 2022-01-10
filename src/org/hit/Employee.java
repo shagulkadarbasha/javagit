@@ -1,7 +1,7 @@
 package org.hit;
 
 public class Employee {
-	private void sample() {
+	public void sample() {
 		System.out.println("system");
 
 	}
@@ -10,6 +10,9 @@ public class Employee {
 	
 Employee e = new Employee();
 e.sample();
+e.add();
 	}
-
+	public void add() {
+		System.out.println("addition");
+}
 }
