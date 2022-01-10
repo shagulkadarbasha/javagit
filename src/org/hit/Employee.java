@@ -12,7 +12,7 @@ Employee e = new Employee();
 e.sample();
 e.sub();
 	}
-	private void sub() {
+	public void sub() {
 		System.out.println("subtraction");
 }
 }
