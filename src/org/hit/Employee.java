@@ -10,6 +10,9 @@ public class Employee {
 	
 Employee e = new Employee();
 e.sample();
+e.sub();
 	}
-
+	private void sub() {
+		System.out.println("subtraction");
+}
 }
