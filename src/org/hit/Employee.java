@@ -10,9 +10,9 @@ public class Employee {
 	
 Employee e = new Employee();
 e.sample();
-e.add();
+e.sub();
 	}
-	public void add() {
-		System.out.println("addition");
+	public void sub() {
+		System.out.println("subttraction");
 }
 }
