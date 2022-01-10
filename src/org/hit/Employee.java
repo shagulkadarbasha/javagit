@@ -1,18 +1,21 @@
 package org.hit;
 
 public class Employee {
-	public void sample() {
-		System.out.println("system");
+	public void sugar() {
+		System.out.println("driver");
 
 	}
 
 	public static void main(String[] args) {
 	
 Employee e = new Employee();
-e.sample();
-e.mul();
+e.sugar();
+e.nul();
 	}
-	public void mul() {
-		System.out.println("multiplication");
+	public void nul() {
+		System.out.println("merge");
+}
+	public void sample2() {
+		System.out.println("mugal");	
 }
 }
